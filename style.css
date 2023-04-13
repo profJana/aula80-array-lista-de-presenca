@@ -1,0 +1,53 @@
+body{
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+main{
+    margin: auto;
+    margin-top: 50px ;
+    background-color: rgba(255, 255, 255, 0.937);
+    box-shadow: rgba(201, 31, 8, 0.2) 0px 7px 29px 0px;
+    width: 800px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(186, 77, 77);
+}
+input:focus{
+    outline: none;
+    background-color: rgba(197, 39, 39, 0.066);
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    background-color: rgba(230, 116, 116, 0.493);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: rgba(242, 149, 149, 0.493);
+    
+}
+
+hr{
+    width: 500px;
+    border-color: rgba(255, 255, 255, 0.485);
+}
+
+label{
+    margin-bottom: 10px;
+}
